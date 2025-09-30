@@ -1,3 +1,12 @@
+// Sistema realizado por Leonardo Tirado.
+// Projeto: Aplicativo de linha de comando para buscar países usando a API RestCountries
+// Data: 26/09/2025
+
+// ------------------------------------------------------------------------------
+// Descrição: Este aplicativo faz uma requisição HTTP para a API RestCountries
+// e exibe informações básicas sobre os países, como nome, capital, região e população.
+// ------------------------------------------------------------------------------
+
 import 'dart:convert'; // Biblioteca para trabalhar com JSON (converter texto JSON em objetos Dart)
 import 'package:http/http.dart'
     as http; // Biblioteca HTTP para fazer requisições na internet
